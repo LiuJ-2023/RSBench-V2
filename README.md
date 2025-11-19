@@ -292,30 +292,6 @@ pip install -r requirements-dev.txt
 ```bash
 python -m pytest tests/
 ```
-
-## 📚 Documentation
-
-- [API Reference](docs/api.md)
-- [Examples](examples/)
-- [Tutorials](docs/tutorials.md)
-- [Performance Guide](docs/performance.md)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **NSGA-II**: Deb, K., et al. "A fast and elitist multiobjective genetic algorithm: NSGA-II"
-- **Multi-objective Optimization**: Coello, C. A. C. "Evolutionary multi-objective optimization"
-- **Recommender Systems**: Ricci, F., et al. "Recommender Systems Handbook"
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/RSBench-V2/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/RSBench-V2/discussions)
-- **Email**: support@RSBench-V2.com
-
 ---
 
 **RSBench-V2** - Advancing Multi-Objective Recommender System Research 🚀
