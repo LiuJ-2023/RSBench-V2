@@ -8,9 +8,10 @@
 
 RSBench-V2 is a comprehensive library for multi-objective optimization of recommender systems using Large Language Models (LLMs) and evolutionary algorithms. It provides a standardized benchmark for evaluating recommendation systems across multiple objectives including accuracy, diversity, and fairness.
 
-> **⚠️ Note: This is a new version** - Compared to the original paper, this implementation features **asynchronous evaluation** that significantly improves execution efficiency. All LLM calls are executed in parallel using asyncio, making the evaluation process much faster than the sequential approach described in the original work.
+> **⚠️ Note: This is a new version** - Compared to the original paper (Liu, J., Sun, Z., Feng, S., Chen, C., & Ong, Y. S. (2025). Language model evolutionary algorithms for recommender systems: Benchmarks and algorithm comparisons. IEEE Transactions on Evolutionary Computation.), this implementation features **asynchronous evaluation** that significantly improves execution efficiency. All LLM calls are executed in parallel using asyncio, making the evaluation process much faster than the sequential approach described in the original work.
+The old version can be found at https://github.com/LiuJ-2023/RSBench. 
 
-## 🚀 Why RSBench-V2 is a Library
+## 🚀 Why RSBench-V2 is a good baseline benchmark?
 
 ### 1. **Modular Architecture**
 - **Core Components**: Separate modules for algorithms, problems, datasets, and utilities
