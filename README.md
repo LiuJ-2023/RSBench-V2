@@ -277,10 +277,6 @@ The library automatically generates:
 - **Personalization**: Balanced personalization strategies
 - **A/B Testing**: Automated optimization testing
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
 ### Development Setup
 ```bash
 git clone https://github.com/your-repo/RSBench-V2.git
