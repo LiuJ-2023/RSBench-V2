@@ -2,15 +2,15 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status: Active](https://img.shields.io/badge/status-active-green.svg)](https://github.com/your-repo/rsbench-v3)
+[![Status: Active](https://img.shields.io/badge/status-active-green.svg)](https://github.com/your-repo/RSBench-V2)
 
 ## 🎯 Overview
 
-RSBench-V3 is a comprehensive library for multi-objective optimization of recommender systems using Large Language Models (LLMs) and evolutionary algorithms. It provides a standardized benchmark for evaluating recommendation systems across multiple objectives including accuracy, diversity, and fairness.
+RSBench-V2 is a comprehensive library for multi-objective optimization of recommender systems using Large Language Models (LLMs) and evolutionary algorithms. It provides a standardized benchmark for evaluating recommendation systems across multiple objectives including accuracy, diversity, and fairness.
 
 > **⚠️ Note: This is a new version** - Compared to the original paper, this implementation features **asynchronous evaluation** that significantly improves execution efficiency. All LLM calls are executed in parallel using asyncio, making the evaluation process much faster than the sequential approach described in the original work.
 
-## 🚀 Why RSBench-V3 is a Library
+## 🚀 Why RSBench-V2 is a Library
 
 ### 1. **Modular Architecture**
 - **Core Components**: Separate modules for algorithms, problems, datasets, and utilities
@@ -43,7 +43,7 @@ RSBench-V3 is a comprehensive library for multi-objective optimization of recomm
 ## 🏗️ Architecture
 
 ```
-RSBench-V3/
+RSBench-V2/
 ├── core/                    # Core library components
 │   ├── algorithms.py       # Evolutionary algorithms (NSGA-II, MOEA/D, IBEA)
 │   ├── problems.py         # Multi-objective problems (AccDiv, AccFair, AccDivFair)
@@ -282,8 +282,8 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ### Development Setup
 ```bash
-git clone https://github.com/your-repo/rsbench-v3.git
-cd rsbench-v3
+git clone https://github.com/your-repo/RSBench-V2.git
+cd RSBench-V2
 pip install -e .
 pip install -r requirements-dev.txt
 ```
@@ -312,10 +312,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-repo/rsbench-v3/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/rsbench-v3/discussions)
-- **Email**: support@rsbench-v3.com
+- **Issues**: [GitHub Issues](https://github.com/your-repo/RSBench-V2/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/your-repo/RSBench-V2/discussions)
+- **Email**: support@RSBench-V2.com
 
 ---
 
-**RSBench-V3** - Advancing Multi-Objective Recommender System Research 🚀
+**RSBench-V2** - Advancing Multi-Objective Recommender System Research 🚀
